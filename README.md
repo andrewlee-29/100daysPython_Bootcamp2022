@@ -1,34 +1,21 @@
 # 100daysPython_Bootcamp2022
 
-Foobar is a Python library for dealing with word pluralization.
+This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 
-## Installation
+## Purpose
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+- Review some programming basic concepts with a daily small project.
+- building habit on daily coding and updating code.
 
-```bash
-pip install foobar
-```
+## Days and projects
 
-## Usage
+- day 15 : Coffee Machine 
+- day 16 : Coffee Machine (with Object Oriented Programming concept)
+- day 17 : Quiz game
+- day 18 : Drawing The Hirst Painting (using Turtle)
+- day 19 : Turtle racing game
+- day 20/21 : Snake game 
+- day 22: Pong game
+- day 23 : Turtle Crossing game
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Concept Reviewed
