@@ -18,11 +18,13 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - day 22: Pong game
 - day 23 : Turtle Crossing game
 - day 24 : Mail Merge 
-- day 25 :
+- day 25 : U.S. States Game
+= day 26 : Nato phonetic alphabets
 ## Concept Reviewed
 
 - Object Orineted Programming   ---- (day16)
 - Instances, State, Higher Order Function ----(day19)
 - Class Inheritance ----(day21)
 - File reading, writing, appending / Directories and Path (day24)
-- Pandas (Basic) / CSV file reading and writing
+- Pandas (Basic) / CSV file reading and writing (day25)
+- List/Directionay Comprehension (day26)
