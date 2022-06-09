@@ -22,6 +22,7 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - day 26 : Nato phonetic alphabets
 - day 27 : unit converter with GuI
 - day 28 : Pomodoro Timer
+- day 29 : Password Manager
 ## Concept Reviewed
 
 - Object Orineted Programming   ---- (day 16)
