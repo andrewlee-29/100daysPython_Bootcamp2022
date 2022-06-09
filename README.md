@@ -21,6 +21,7 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - day 25 : U.S. States Game
 - day 26 : Nato phonetic alphabets
 - day 27 : unit converter with GuI
+- day 28 : Pomodoro Timer
 ## Concept Reviewed
 
 - Object Orineted Programming   ---- (day 16)
@@ -30,3 +31,4 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - Pandas (Basic) / CSV file reading and writing (day 25)
 - List/Directionay Comprehension (day 26)
 - *Python arguments : Args and **Kwargs (day 27)
+- Event Driven (day 28)
