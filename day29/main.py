@@ -1,3 +1,5 @@
+import json
+
 DEFAULT_EMAIL = "Sample email"
 
 
@@ -46,13 +48,49 @@ def save_password():
     website = website_entry.get()
     username = username_entry.get()
     password = password_entry.get()
+    new_data ={
+        website:{
+            "username": username,
+            "password": password
+        }
+    }
     if len(password)== 0 or len(website)== 0:
         messagebox.showwarning(message="You did not input the website or password. Please enter the info!!")
     else:
         is_ok =messagebox.askokcancel(title=website,message=f"Your username/email is : {username}\n Your passowrd is :{password} Do you want to save?")
         if is_ok:
-            with open("data.txt","a")  as file:
-                file.write(f"{website}|{username}|{password}\n ")
+            try:
+                file = open("data.json","r")
+            except FileNotFoundError:
+                data= new_data
+            else:
+                #read
+                data = json.load(file)
+                #update data
+                data.update(new_data)
+                file.close()
+            finally:
+                with open("data.json", "w") as file:
+                    #write json data
+                    json.dump(data,file,indent=4)
+                website_entry.delete(0,END)
+                password_entry.delete(0, END)
+# ---------------------------- Search ------------------------------- #
+def serach_data():
+    try:
+        with open("data.json","r") as file:
+            get_data = json.load(file)
+    except FileNotFoundError:
+        error_warning = messagebox.showwarning(title="Error", message="Data isn't found ")
+    else:
+        website = website_entry.get()
+        if website in get_data:
+            username = get_data[website]["username"]
+            password=get_data[website]["password"]
+            result_message = messagebox.showinfo(title=website,message=f"Your username/email is : {username}\n Your passowrd is :{password}")
+            pyperclip.copy(password)
+        else:
+            error_warning = messagebox.showwarning(title="Error", message="Website isn't found ")
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
@@ -72,6 +110,10 @@ website_entry = Entry(width=35)
 website_entry.grid(row=2,column=2,columnspan=2)
 #select the entry when the app started
 website_entry.focus()
+
+#Search button
+search_button = Button(text="Search",command=serach_data)
+search_button.grid(row=2,column=3)
 
 #Email/username label
 username_label = Label(text="Email/Username: ")
