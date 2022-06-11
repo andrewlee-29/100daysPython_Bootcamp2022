@@ -23,6 +23,8 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - day 27 : unit converter with GuI
 - day 28 : Pomodoro Timer
 - day 29 : Password Manager
+- day 30 : Password Manager (search function)
+- day 31 : Flash Card App Capstone Project
 ## Concept Reviewed
 
 - Object Orineted Programming   ---- (day 16)
@@ -33,3 +35,4 @@ This is a course from Udemy. https://www.udemy.com/course/100-days-of-code/
 - List/Directionay Comprehension (day 26)
 - *Python arguments : Args and **Kwargs (day 27)
 - Event Driven (day 28)
+- Exception, Json (day 30)
