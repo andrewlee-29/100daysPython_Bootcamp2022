@@ -9,7 +9,7 @@ Week: Week 4
 - We are going to use the online API Pixela to build a graphical habit checker.
 - A visualize graph that allow user to see the clustered or varies over space
 
-![Untitled](Day%2037%20pixel%20habit%20checker%20cf813da27bac4cd6b4210c42e394b4ee/Untitled.png)
+![Untitled](screenshot.png)
 
 # **Features**
 

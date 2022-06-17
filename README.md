@@ -31,6 +31,8 @@ https://www.udemy.com/course/100-days-of-code/
 - day 30 : Password Manager (search function)
 - day 31 : Flash Card App Capstone Project
 - day 34 : GUI Quiz App
+- day 35 : Rain Alert application
+- day 37 : Pixel Habit Checker
 ## 💡Concept Reviewed
 
 - Object Orineted Programming —- (day 16)
@@ -43,3 +45,4 @@ https://www.udemy.com/course/100-days-of-code/
 - Event Driven (day 28)
 - Exception, Json (day 30)
 - smtplib ,daytime (day 32)
+- HTTP header, POST, PUT, DELETE
